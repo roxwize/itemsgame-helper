@@ -1,0 +1,863 @@
+{
+  "15000": {
+    "name": "noise damage",
+    "description_string": "+%s1% eardrum-shattering capacity",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15001": {
+    "name": "live weapon function notif",
+    "description_string": "Wep. functions differ slightly from Live TF2",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15002": {
+    "name": "minigun spin time decreased",
+    "attribute_class": "mult_minigun_spinup_time",
+    "description_string": "+%s1% faster spinup and spindown time",
+    "description_format": "value_is_inverted_percentage",
+    "effect_type": "positive"
+  },
+  "15003": {
+    "name": "minigun spin time increased",
+    "attribute_class": "mult_minigun_spinup_time",
+    "description_string": "%s1% slower spinup and spindown time",
+    "description_format": "value_is_percentage",
+    "effect_type": "negative"
+  },
+  "15004": {
+    "name": "hat no tactical advantage",
+    "description_string": "Hat has no tactical advantage whatsoever",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15005": {
+    "name": "dragons fury fireballs",
+    "description_string": "Fires explosive fireballs",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15006": {
+    "name": "humiliation rate increased",
+    "description_string": "+%s1% higher humiliation rate",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15007": {
+    "name": "crit_kill_effect_gib",
+    "attribute_class": "mod_melee_crit_swing_custom_damage",
+    "description_string": "On Crit-Kill: Turn enemies into a pile of gibs!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15008": {
+    "name": "crit_kill_effect_decap",
+    "attribute_class": "mod_melee_crit_swing_custom_damage",
+    "description_string": "On Crit-Kill: Decapitate your enemies!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15009": {
+    "name": "self mfd short",
+    "attribute_class": "self_mark_for_death",
+    "description_string": "Marked for death while active (and %s1s after)",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15010": {
+    "name": "air mobility increased",
+    "description_string": "+%s1% increased mobility in the air",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15011": {
+    "name": "jarate jump",
+    "description_string": "+%s1% Jarate-jumping mastery",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15012": {
+    "name": "speed on kill with time",
+    "description_string": "On Kill: Gain a speed boost for %s1 seconds",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15013": {
+    "name": "speed on hit with time",
+    "description_string": "On Hit: Gain a speed boost for %s1 seconds",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15014": {
+    "name": "mfd short desc",
+    "description_string": "On Hit: Inflict marked for death on targets,\nany damage dealt will mini-crit!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15015": {
+    "name": "mfd short time",
+    "description_string": "On Hit: Inflict marked for death for %s1s",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15016": {
+    "name": "outline target text",
+    "attribute_class": "outline_on_hit",
+    "description_string": "Mark enemies with an outline for %s1s",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15017": {
+    "name": "loadout item disables primary",
+    "description_string": "Cannot use a Primary weapon while active",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15018": {
+    "name": "loadout item disables secondary",
+    "description_string": "Cannot use Secondary weapon while active",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15019": {
+    "name": "loadout item disables melee",
+    "description_string": "Cannot use a Melee weapon while active",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15020": {
+    "name": "self mfd swing",
+    "description_string": "On Swing: Mark yourself for Death! (%s1s)",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15021": {
+    "name": "no baseballs",
+    "description_string": "Cannot pitch or launch baseballs",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15022": {
+    "name": "construct on hit enemy text",
+    "attribute_class": "add_onhit_construction",
+    "description_string": "On Hit Enemy: All active buildings get some\nupgrade + repair progress if able",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15023": {
+    "name": "damage pierce resistances",
+    "attribute_class": "mod_pierce_resists_absorbs",
+    "description_string": "Attacks pierce damage resistance\neffects and bonuses",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15024": {
+    "name": "bodydouble transform text",
+    "attribute_class": "mod_onhit_copy_victim",
+    "description_string": "On Hit Enemy: Rapidly transform into their\nClass and copy their weapons on the spot",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15025": {
+    "name": "dna transform debuff",
+    "description_string": "Transformations start with reduced health",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15026": {
+    "name": "cleaver desc simple",
+    "description_string": "Throw at enemies to make them bleed!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15027": {
+    "name": "airblast vulnerability decreased",
+    "attribute_class": "airblast_vulnerability_multiplier",
+    "description_string": "%s1% reduction in airblast vulnerability",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15028": {
+    "name": "airblast vulnerability increased",
+    "attribute_class": "airblast_vulnerability_multiplier",
+    "description_string": "+%s1% increased airblast vulnerability",
+    "description_format": "value_is_inverted_percentage",
+    "effect_type": "negative"
+  },
+  "15029": {
+    "name": "cannot provide civ minicrit",
+    "description_string": "Cannot provide Offense boost to allies",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15030": {
+    "name": "cannot provide civ radius",
+    "description_string": "Cannot provide Radius boost to allies",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15031": {
+    "name": "flares explode",
+    "description_string": "Flares explode on contact with world",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15032": {
+    "name": "upgrade rate increase",
+    "attribute_class": "upgrade_rate_mod",
+    "description_string": "+%s1% faster upgrade rate",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15033": {
+    "name": "mod weapon chainsaw",
+    "description_string": "Attack at close-range with a chainsaw",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15034": {
+    "name": "aiming movespeed fullspeed",
+    "attribute_class": "mult_player_aiming_movespeed",
+    "description_string": "Move at full speed while aiming",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15035": {
+    "name": "mod custom decal",
+    "description_string": "Current Decal: Team Pride",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15036": {
+    "name": "mod weapon longjump",
+    "description_string": "Primary Fire: Leap away with a Long Jump!",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15037": {
+    "name": "health no regen",
+    "attribute_class": "add_health_regen",
+    "description_string": "No health regeneration",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15038": {
+    "name": "boost targets enemies text",
+    "attribute_class": "add_civ_boost_enemies",
+    "description_string": "Boost targets enemies instead of allies",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15039": {
+    "name": "haste on kill with time",
+    "description_string": "On Kill: Gain Haste for %s1 seconds",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15040": {
+    "name": "dmg push force to stickies increased",
+    "attribute_class": "mult_dmg_push_force_to_stickies",
+    "description_string": "+%s1% push force to enemy stickybombs",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15041": {
+    "name": "move speed penalty while cloaked",
+    "attribute_class": "mult_player_movespeed_cloaked",
+    "description_string": "%s1% slower move speed while cloaked",
+    "description_format": "value_is_inverted_percentage",
+    "effect_type": "negative"
+  },
+  "15042": {
+    "name": "bullets ricochet",
+    "description_string": "Shots ricochet off surfaces up to %s1 times!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15043": {
+    "name": "weapon fires nails",
+    "description_string": "Fires high-speed nails",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15044": {
+    "name": "weapon fires lasers",
+    "description_string": "Fires high-speed lasers",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15045": {
+    "name": "damage at range increased",
+    "description_string": "Long distance hits deal +%s1% more damage",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15046": {
+    "name": "minicrit vs outlined players",
+    "attribute_class": "single_minicrit_vs_playercond_no_dot",
+    "description_string": "100% mini-crits vs outlined players",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15047": {
+    "name": "faster weapon draw speed",
+    "attribute_class": "mult_single_wep_deploy_time",
+    "description_string": "+%s1% faster weapon draw speed",
+    "description_format": "value_is_inverted_percentage",
+    "effect_type": "positive"
+  },
+  "15048": {
+    "name": "slower weapon draw speed",
+    "attribute_class": "mult_single_wep_deploy_time",
+    "description_string": "%s1% slower weapon draw speed",
+    "description_format": "value_is_percentage",
+    "effect_type": "negative"
+  },
+  "15049": {
+    "name": "set tripmine conc tranq",
+    "description_string": "Lay up to 3 tripmines that concuss and\ntranquilize nearby enemies for %s1s",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15050": {
+    "name": "mine detection radius decreased",
+    "attribute_class": "mult_proxymine_radius",
+    "description_string": "%s1% smaller mine activation radius",
+    "description_format": "value_is_percentage",
+    "effect_type": "negative"
+  },
+  "15051": {
+    "name": "mine detection radius increased",
+    "attribute_class": "mult_proxymine_radius",
+    "description_string": "+%s1% larger mine activation radius",
+    "description_format": "value_is_inverted_percentage",
+    "effect_type": "positive"
+  },
+  "15052": {
+    "name": "mod crit while airborne short",
+    "attribute_class": "crit_while_airborne",
+    "description_string": "Deals crits while blast or jumppad jumping",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15053": {
+    "name": "crit vs tranqed players",
+    "attribute_class": "single_crit_vs_playercond_no_dot",
+    "description_string": "100% critical hit vs tranquilized players",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15054": {
+    "name": "mod flechette launcher",
+    "description_string": "Fires timed explosive Flechettes",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15055": {
+    "name": "flechette no stick no det",
+    "description_string": "Flechettes do not stick to players, and\ncannot be manually detonated",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15056": {
+    "name": "medic shotgun placeholder",
+    "description_string": "(Schwienhunds... It still doesn't fire syringes)",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15057": {
+    "name": "dispenser rate increased",
+    "attribute_class": "mult_dispenser_rate",
+    "description_string": "Dispenser generates %s1% more resources",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15058": {
+    "name": "engy dispenser radius decreased",
+    "attribute_class": "mult_dispenser_radius",
+    "description_string": "%s1% lower dispenser range",
+    "description_format": "value_is_inverted_percentage",
+    "effect_type": "negative"
+  },
+  "15059": {
+    "name": "dispenserizer dispenserizes",
+    "description_string": "Fires explosive Mini-Dispensers",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15060": {
+    "name": "minidisp no regenerate",
+    "description_string": "Mini-Dispenser cannot heal or restock allies",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15061": {
+    "name": "explosive bolts",
+    "description_string": "Fires explosive crossbow bolts",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15062": {
+    "name": "mod maxlevel killed revenge",
+    "description_string": "When a Lvl. 3 Building of yours is destroyed\nby an enemy, gain %s1s of Revenge Crits!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15063": {
+    "name": "weapon fires baseballs",
+    "description_string": "Fires high-speed baseballs",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15064": {
+    "name": "radiogun noisemaker",
+    "description_string": "Fires a device that plays a wide selection\nof important noises where it lands",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15065": {
+    "name": "crit vs healbeam players",
+    "attribute_class": "or_crit_vs_playercond",
+    "description_string": "100% critical hit vs players being healed\nby Medigun or Dispenser beams",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15066": {
+    "name": "health regen short",
+    "attribute_class": "add_health_regen",
+    "description_string": "+%s1 health regenerated per second",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15067": {
+    "name": "health drain short",
+    "attribute_class": "add_health_regen",
+    "description_string": "%s1 health drained per second",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15068": {
+    "name": "mod enemy downwards knockback",
+    "description_string": "On Hit: Send foes cratering downwards!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15069": {
+    "name": "rocket barrage",
+    "description_string": "Unleash a barrage of %s1 rockets at once",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15070": {
+    "name": "weapon fires molotov",
+    "description_string": "Fires explosive molotov cocktails",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15071": {
+    "name": "crit vs teleported players",
+    "attribute_class": "or_crit_vs_playercond",
+    "description_string": "100% critical hit vs teleported players",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15072": {
+    "name": "crit vs katana players",
+    "attribute_class": "single_crit_vs_playercond_no_dot",
+    "description_string": "100% critical hit vs other Katana wielders",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15073": {
+    "name": "set weapon flamerocket",
+    "description_string": "Fires a continuous stream of flame rockets",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15074": {
+    "name": "sapper self-destruct",
+    "description_string": "Sapper self-destructs after %s1s",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15075": {
+    "name": "headtaker harvester text",
+    "description_string": "Light your enemies' souls ablaze, to build up\nprogress towards a guaranteed critical hit!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15076": {
+    "name": "minicrit vs players below feet",
+    "attribute_class": "single_minicrit_vs_playercond_no_dot",
+    "description_string": "100% mini-crits vs players below you",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15077": {
+    "name": "defense boost on kill with time",
+    "description_string": "On Kill: Gain a Def. Buff for %s1 seconds",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15078": {
+    "name": "fuse time bonus",
+    "attribute_class": "fuse_mult",
+    "description_string": "%s1% fuse time on grenades",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15079": {
+    "name": "fuse time penalty",
+    "attribute_class": "fuse_mult",
+    "description_string": "+%s1% fuse time on grenades",
+    "description_format": "value_is_inverted_percentage",
+    "effect_type": "positive"
+  },
+  "15080": {
+    "name": "khopesh climber fling",
+    "description_string": "On Swing: Gain a small boost forwards!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15081": {
+    "name": "tmp dmgbonus minicrit",
+    "description_string": "On Hit: Gain temporary mini-crits",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15082": {
+    "name": "no overheal",
+    "attribute_class": "mult_medigun_overheal_amount",
+    "description_string": "Cannot overheal patients",
+    "description_format": "value_is_percentage",
+    "effect_type": "negative"
+  },
+  "15083": {
+    "name": "thermal thruster nowp",
+    "description_string": "Blast off and fly using your jetpack!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15084": {
+    "name": "jumper no damage",
+    "description_string": "Weapon deals no damage",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15085": {
+    "name": "jumper disable flags",
+    "description_string": "Unable to carry active Flags or Intel",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15086": {
+    "name": "jumper disable capture",
+    "description_string": "Unable to capture or defend Objectives",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15087": {
+    "name": "brick text nowp",
+    "attribute_class": "bleeding_duration",
+    "description_string": "Throw at enemies to bludgeon them! (%s1s)\nThat's gotta hurt in the morning",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15088": {
+    "name": "voices from below scout",
+    "description_string": "Voices from Below: Haunted by the\nsoul of a twitchy hooligan",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15089": {
+    "name": "wrench current update number",
+    "description_string": "Wrench no. %s1",
+    "description_format": "value_is_additive",
+    "effect_type": "neutral"
+  },
+  "15090": {
+    "name": "retired weapon",
+    "description_string": "A nostalgic feeling washes over you...",
+    "custom_color": "225 209 0 255",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15091": {
+    "name": "icannon proj spread awful hack",
+    "description_string": "+7 degrees random projectile deviation",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15092": {
+    "name": "cannot backstab",
+    "description_string": "Cannot backstab",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15093": {
+    "name": "centerfire projectile positive",
+    "attribute_class": "centerfire_projectile",
+    "description_string": "Projectile fires from the center",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15094": {
+    "name": "cannot do engi stuff",
+    "description_string": "Cannot upgrade, repair, or speed\nup construction on friendly buildings",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15095": {
+    "name": "cannot heal",
+    "description_string": "Cannot heal patients",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15096": {
+    "name": "throwable has knockback",
+    "description_string": "Throw at enemies to knock them back!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15097": {
+    "name": "crit vs outlined players",
+    "attribute_class": "single_crit_vs_playercond_no_dot",
+    "description_string": "100% critical hit vs outlined players",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15098": {
+    "name": "sun on a stick combined",
+    "attribute_class": "or_crit_vs_playercond",
+    "description_string": "100% critical hit vs burning, stunned, and\nrecently-teleported players",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15099": {
+    "name": "defense boost on eat with time",
+    "description_string": "On Drink: Gain a Def. Buff for %s1 seconds",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15100": {
+    "name": "no afterburn",
+    "attribute_class": "mult_wpn_burntime",
+    "description_string": "No afterburn",
+    "description_format": "value_is_percentage",
+    "effect_type": "negative"
+  },
+  "15101": {
+    "name": "minicrit on objective simple",
+    "attribute_class": "mini_crit_on_objectives",
+    "description_string": "Deals mini-crits when you or the enemy\nare near active objectives or carrying flags",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15102": {
+    "name": "airblast refire time decreased",
+    "attribute_class": "mult_airblast_refire_time",
+    "description_string": "%s1% shorter airblast cooldown",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15103": {
+    "name": "airblast refire time increased",
+    "attribute_class": "mult_airblast_refire_time",
+    "description_string": "%s1% longer airblast cooldown",
+    "description_format": "value_is_percentage",
+    "effect_type": "negative"
+  },
+  "15104": {
+    "name": "deflection size increased",
+    "attribute_class": "deflection_size_multiplier",
+    "description_string": "%s1% larger airblast range",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15105": {
+    "name": "deflection size decreased",
+    "attribute_class": "deflection_size_multiplier",
+    "description_string": "%s1% smaller airblast range",
+    "description_format": "value_is_percentage",
+    "effect_type": "negative"
+  },
+  "15106": {
+    "name": "weapon fires bricks",
+    "description_string": "Fires explosive bricks!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15107": {
+    "name": "taser heal text",
+    "description_string": "Hit and heal allies by %s1% at max charge",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15108": {
+    "name": "rush order combined",
+    "description_string": "Faster dispenser and teleporter build speed",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15109": {
+    "name": "pda default desc",
+    "description_string": "Build a Sentry, Dispenser, and 2 Teleporters",
+    "description_format": "value_is_percentage",
+    "effect_type": "neutral"
+  },
+  "15110": {
+    "name": "brick explodes text",
+    "description_string": "Brick explodes after a short delay",
+    "description_format": "value_is_additive",
+    "effect_type": "neutral"
+  },
+  "15111": {
+    "name": "heal on kill nonspecific",
+    "attribute_class": "heal_on_kill",
+    "description_string": "Health restored slightly on kill",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15112": {
+    "name": "infinite brick supply",
+    "attribute_class": "mult_maxammo_grenades1",
+    "description_string": "Infinite supply of bricks on wearer",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15113": {
+    "name": "brick explodes hack fix",
+    "attribute_class": "energy_weapon_no_ammo",
+    "description_string": "Brick explodes after a short delay",
+    "description_format": "value_is_additive",
+    "effect_type": "neutral"
+  },
+  "15114": {
+    "name": "noisemaker",
+    "description_string": "On Use: Make some noise!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15115": {
+    "name": "iridescent weapon",
+    "description_string": "Iridescence: Changes sheen based on team",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15116": {
+    "name": "crit instant kill user",
+    "attribute_class": "mult_dmgtaken_from_crit",
+    "description_string": "Critical hits will instantly kill you",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15117": {
+    "name": "melee range no buildings",
+    "description_string": "Melee range does not apply to buildings",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15118": {
+    "name": "melee range no backstab",
+    "description_string": "Melee range does not apply to backstabs",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15119": {
+    "name": "no blast damage kill",
+    "description_string": "No blast damage taken on a successful kill",
+    "attribute_type": "string",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15120": {
+    "name": "gas passer nowp",
+    "description_string": "Throw at enemies to light them on fire!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15121": {
+    "name": "maxammo grenades2 increased text",
+    "attribute_class": "mult_maxammo_grenades2",
+    "description_string": "+%s1% max grenades on wearer",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15122": {
+    "name": "hide_attrib_additive",
+    "attribute_class": "DISPLAY_ONLY",
+    "description_format": "value_is_additive",
+    "hidden": "1"
+  },
+  "15123": {
+    "name": "hide_attrib_percentage",
+    "attribute_class": "DISPLAY_ONLY",
+    "description_format": "value_is_percentage",
+    "hidden": "1"
+  },
+  "15124": {
+    "name": "weapon cook projectile mode",
+    "attribute_class": "grenade_launcher_mortar_mode",
+    "description_string": "Hold fire to light the fuse! Grenades will explode quicker the longer you hold",
+    "description_format": "value_is_additive",
+    "effect_type": "neutral"
+  },
+  "15125": {
+    "name": "weapon explodes",
+    "description_string": "On Overcharge: Blow yourself up. Idiot.",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15126": {
+    "name": "stickies dont stick text",
+    "attribute_class": "stickies_dont_stick",
+    "description_string": "Stickybombs don't stick to surfaces",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15137": {
+    "name": "health from lunchbox increased",
+    "attribute_class": "lunchbox_healing_scale",
+    "description_string": "+%s1% healing effect",
+    "description_format": "value_is_percentage",
+    "effect_type": "positive"
+  },
+  "15138": {
+    "name": "health from lunchbox decreased",
+    "attribute_class": "lunchbox_healing_scale",
+    "description_string": "%s1% healing effect",
+    "description_format": "value_is_percentage",
+    "effect_type": "negative"
+  },
+  "15139": {
+    "name": "projectile detonates with rocket",
+    "attribute_class": "mirv_detonate_with_rocket_radius",
+    "description_string": "Rockets will detonate grenades on contact",
+    "description_format": "value_is_additive",
+    "effect_type": "neutral"
+  },
+  "15140": {
+    "name": "grenade no autodet",
+    "description_string": "You forgot to pull the pins first, stupid",
+    "description_format": "value_is_additive",
+    "effect_type": "negative"
+  },
+  "15141": {
+    "name": "stealth on kill with time",
+    "description_string": "On Kill: Become Stealthed for %s1 seconds",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15142": {
+    "name": "attack while cloaked",
+    "description_string": "Can attack while fully cloaked",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  },
+  "15143": {
+    "name": "deploy bear traps count",
+    "description_string": "Deploy up to %s1 beartraps to snag enemies!",
+    "description_format": "value_is_additive",
+    "effect_type": "positive"
+  }
+}

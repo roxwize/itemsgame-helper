@@ -1,0 +1,94 @@
+@font-face {
+    font-family: 'tf2secondary';
+    src: url('./assets/tf2secondary.woff2') format('woff2'),
+    url('./assets/tf2secondary.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    font-family: "tf2secondary", serif;
+    background: #f5e7de;
+}
+
+input {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(52, 48, 45, 0.78);
+    margin: 6px;
+
+    &::placeholder {
+        color: rgba(0, 0, 0, 0.5);
+        font-family: "tf2secondary", serif;
+    }
+}
+
+.attrib-selector {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    #attrib-search {
+        width: 100%;
+        column-span: 2;
+    }
+
+    .attribute {
+        padding: 12px;
+        border-radius: 5px;
+        border: 2px solid rgba(52, 48, 45, 0.78);
+        margin: 6px;
+        transition: all 0.2s ease-out;
+        display: flex;
+        flex-direction: column;
+
+        .attrib-top {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+
+            .attrib-name {
+                flex-grow: 1;
+                flex-shrink: 1;
+            }
+
+            &.positive .attrib-name {
+                color: #348634;
+            }
+            &.negative > .attrib-name {
+                color: #853131;
+            }
+        }
+
+        .attrib-bottom {
+            .attrib-syntax {
+                display: block;
+            }
+            .attrib-notes {
+                background: #ccc;
+                font-family: "Fira Code", monospace;
+                border-radius: 5px;
+                border: 2px solid #333;
+                font-size: 12px;
+                padding: 12px;
+                margin-top: 6px;
+            }
+        }
+
+        &:nth-child(odd) {
+            background: #c1a18a;
+            &:hover {
+                background: #dabdab;
+            }
+        }
+        &:nth-child(even) {
+            background: #dabdab;
+            &:hover {
+                background: #c1a18a;
+            }
+        }
+
+        .attrib-class {
+            font-style: italic;
+        }
+    }
+}
