@@ -1,2 +1,2 @@
 # items_game helper
-Noob
+This is a utility that lets you view all the attributes you can use in Team Fortress 2 Classic. It's [available online](https://thekifake.github.io/itemsgame-helper/) with no setup required if you just want to get it up and running.
